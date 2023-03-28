@@ -15,7 +15,7 @@ NOTE: This is not my project. I simply enjoy this a ton and want it to reach as 
   <Category/>
   <WebUI>http://[IP]:[PORT:8082]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/CorentinTh/it-tools/blob/main/public/android-chrome-512x512.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/UnToobed/Unraid-Docker-Templates/main/Icons/IT-Tools-Icon-512px.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
