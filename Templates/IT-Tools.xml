@@ -11,21 +11,17 @@
   <Project>https://github.com/CorentinTh/it-tools</Project>
   <Overview>Collection of handy online tools for developers, with great UX. &#xD;
 &#xD;
-NOTE: This is not my project. I simply enjoy this a ton and want it to reach as many people as possible which is why I made this template!</Overview>
-  <Category/>
-  <WebUI>http://[IP]:[PORT:8082]</WebUI>
+NOTE: This is not my project. I simply enjoy this a ton and want it to reach as many people as possible which is why I made this template! I have linked Corentinth's Github repo in the resources section so if you like the tool you should definitely check it out and support him!</Overview>
+  <Category>Productivity: Security: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/UnToobed/Unraid-Docker-Templates/main/Icons/IT-Tools-Icon-512px.png</Icon>
+  <Icon>https://github.com/UnToobed/Unraid-Docker-Templates/blob/main/Icons/IT-Tools-Icon-512px.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1680002382</DateInstalled>
+  <DateInstalled>1680198936</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Host Port 1" Target="80" Default="8082" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8082</Config>
 </Container>
-
-COMMAND:
-
-/usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='IT-Tools' --net='bridge' -e TZ="America/Los_Angeles" -e HOST_OS="Unraid" -e HOST_HOSTNAME="Berver" -e HOST_CONTAINERNAME="IT-Tools" -l net.unraid.docker.managed=dockerman -l net.unraid.docker.webui='http://[IP]:[PORT:8082]' -l net.unraid.docker.icon='https://github.com/CorentinTh/it-tools/blob/main/public/android-chrome-512x512.png?raw=true' -p '8082:80/tcp' 'corentinth/it-tools' 
