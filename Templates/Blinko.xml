@@ -1,1 +1,31 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Blinko</Name>
+  <Repository>blinkospace/blinko:latest</Repository>
+  <Registry>https://hub.docker.com/r/blinkospace/blinko</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://blinko.mintlify.app/introduction</Project>
+  <Overview/>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:1111]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/UnToobed/Unraid-Docker-Templates/blob/main/Icons/Blinko-Icon-256x256.png?raw=true</Icon>
+  <ExtraParams>--restart always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1736291011</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Storage" Target="/app/.blinko" Default="/mnt/user/appdata/Blinko" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Blinko</Config>
+  <Config Name="Service Port" Target="1111" Default="1111" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1111</Config>
+  <Config Name="NODE_ENV" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+  <Config Name="NEXTAUTH_URL" Target="NEXTAUTH_URL" Default="http://localhost:1111" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:1111</Config>
+  <Config Name="NEXT_PUBLIC_BASE_URL" Target="NEXT_PUBLIC_BASE_URL" Default="http://localhost:1111" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:1111</Config>
+  <Config Name="NEXTAUTH_SECRET" Target="NEXTAUTH_SECRET" Default="my_ultra_secure_nextauth_secret" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">my_ultra_secure_nextauth_secret</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://database_user:mysecretpassword@postgres_adress:5432/database_name" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgresql://blinko_user:slapping-selector-unpeeled-crepe@192.168.1.10:5432/blinko</Config>
+</Container>
