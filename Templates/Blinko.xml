@@ -9,7 +9,11 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://blinko.mintlify.app/introduction</Project>
-  <Overview/>
+  <Overview>Blinko is an innovative open-source project designed for individuals who want to quickly capture and organize their fleeting thoughts. Blinko allows users to seamlessly jot down ideas the moment they strike, ensuring that no spark of creativity is lost.&#xD;
+&#xD;
+I have created this community template for Blinko to make it easy to setup and run for people. I am not affiliated with Blinko.&#xD;
+&#xD;
+In case you need any support for this template specifically, send a message in the support thread and I will try to help you!</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:1111]/</WebUI>
   <TemplateURL/>
@@ -17,7 +21,7 @@
   <ExtraParams>--restart always</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1736291011</DateInstalled>
+  <DateInstalled>1736292038</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -27,5 +31,5 @@
   <Config Name="NEXTAUTH_URL" Target="NEXTAUTH_URL" Default="http://localhost:1111" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:1111</Config>
   <Config Name="NEXT_PUBLIC_BASE_URL" Target="NEXT_PUBLIC_BASE_URL" Default="http://localhost:1111" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://localhost:1111</Config>
   <Config Name="NEXTAUTH_SECRET" Target="NEXTAUTH_SECRET" Default="my_ultra_secure_nextauth_secret" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">my_ultra_secure_nextauth_secret</Config>
-  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://database_user:mysecretpassword@postgres_adress:5432/database_name" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgresql://blinko_user:slapping-selector-unpeeled-crepe@192.168.1.10:5432/blinko</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgresql://postgres:mysecretpassword@blinko-postgres:5432/postgres" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgresql://blinko_user:slapping-selector-unpeeled-crepe@192.168.1.10:5432/blinko</Config>
 </Container>
